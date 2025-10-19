@@ -9,11 +9,11 @@ export default function ChatArea({ messages, isTyping, messagesEndRef }) {
   }, [messages, isTyping]);
 
   return (
-    <div className="flex-1 overflow-auto bg-white flex justify-center px-4 sm:px-8 py-6">
-      <div className="flex flex-col w-full max-w-[800px] mx-200 pb-28">
+    <div className="flex-1 overflow-auto bg-white flex justify-center px-6 sm:px-10 py-6">
+      <div className="flex flex-col w-full max-w-[800px] mx-auto pb-28">
         {/* ===== Empty state ===== */}
         {messages.length === 0 ? (
-          <div className="text-gray-600 text-center mt-24 space-y-4 px-2">
+          <div className="flex flex-col items-center justify-center text-center text-gray-700 flex-1 space-y-4 px-4" style={{ marginTop: '-3in', marginLeft: '-0.4in' }}>
             <h2 className="text-2xl font-semibold">
               Welcome to Lecture Assistant Chat
             </h2>
