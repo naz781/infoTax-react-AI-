@@ -23,10 +23,11 @@ An AI-powered chatbot built with **Vite** and **CSS**, using **Olama vector data
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Screen shots
 
-### 1. Clone the repo
+<img width="1248" height="871" alt="image" src="https://github.com/user-attachments/assets/b578e327-3f8c-460f-b2ee-3f8d09107667" />
 
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+
+
+
+
